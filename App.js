@@ -10,8 +10,8 @@ import {
 export default function App() {
   return (
     <View style={styles.appContainer}>
-      <View>
-        <TextInput placeholder="Your course goal" />
+      <View style={styles.inputContainer}>
+        <TextInput placeholder="Your course goal" style={styles.textInput} />
         <Button title="Add goal" />
       </View>
       <View>
@@ -23,6 +23,19 @@ export default function App() {
 
 const styles = StyleSheet.create({
   appContainer: {
+    paddingTop: 100,
     padding: 50,
+  },
+  inputContainer: {
+    // flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  textInput: {
+    borderWidth: 1,
+    borderColor: "#cccccc",
+    width: "60%",
+    padding: 8,
+    marginRight: 10,
   },
 });
