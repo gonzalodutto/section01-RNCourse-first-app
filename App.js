@@ -19,6 +19,8 @@ export default function App() {
     console.log(enteredGoalText);
   }
 
+  // Hola Gonza, mandandote un mensaje desde la intranet ;)
+
   return (
     <View style={styles.appContainer}>
       <View style={styles.inputContainer}>
