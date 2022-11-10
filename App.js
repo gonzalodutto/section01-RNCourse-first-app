@@ -20,6 +20,7 @@ export default function App() {
   }
 
   // Hola Gonza, mandandote un mensaje desde la intranet ;)
+  // Ahora probando desde el celular 😄
 
   return (
     <View style={styles.appContainer}>
